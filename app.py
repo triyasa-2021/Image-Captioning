@@ -19,7 +19,6 @@ def main():
     
 	    .stTabs [data-baseweb="tab-list"] {
 		    gap: 4rem;
-            text-align: right;
         }
 
 	    .stTabs [data-baseweb="tab"] {
@@ -40,9 +39,7 @@ def main():
             justify-content: center;  
             align-items: center;  
         }
-        h1{
-            text-align: center;
-        }
+                
     </style>""", unsafe_allow_html=True)
 
     tab1, tab2, tab3 = st.tabs(["Home", "About", "Help"])
